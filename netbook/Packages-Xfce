@@ -2,6 +2,7 @@
 
 ## Netbook Edition packages
 manjaro-netbook-system
+>i686 netbook-kernel-initialiser     ### (will get replaced by the netbook kernel after installation)
 faenza-manjaro-netbook-icon-theme
 xfwm4-manjaro-netbook
 exo
@@ -54,7 +55,7 @@ thus
 manjaro-welcome
 wmctrl
 gparted
-evince
+qpdfview
 hexchat
 mlocate
 xf86-video-modesetting
@@ -62,10 +63,7 @@ dockbarx
 xfce4-dockbarx-plugin
 xfce4-screenshooter
 open-fuse-iso
-
-## From Rob's netbook edition repo (which is only needed for building the ISO, not after installation)
-palemoon-bin     ### (will received updates via AUR (pamac) post installation)
->i686 netbook-kernel-initialiser     ### (will get replaced by the netbook kernel from [community] after installation) (if someone wants the source for this package: http://www.paradoxcomputers.com.au/manjaro/repo/netbook/source/ )
+palemoon-bin
 
 ## Network
 netctl
